@@ -45,9 +45,9 @@ plt.show()
 dataset3 = pd.read_excel(io="D:/OneDrive/Lightweight Design Lab Data/EXT Data/0deg_sp1.xlsx", header=0)
 dataset4 = pd.read_excel(io="D:/OneDrive/Lightweight Design Lab Data/EXT Data/Mix_Sp2.xlsx", header=0)
 
-print(dataset3.head(20))
-print("========================================")
-print(dataset4.head(20))
+# print(dataset3.head(20))
+# print("========================================")
+# print(dataset4.head(20))
 
 sns.set_theme(style="whitegrid")
 plt.figure(figsize=(7,5), dpi=200)
